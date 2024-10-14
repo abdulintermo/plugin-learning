@@ -1,0 +1,19 @@
+<?php
+//security check 
+
+if (! defined('ABSPATH')) {
+    exit("Can't access this file directly."); // Exit if accessed directly
+}
+
+/**
+ * Intermo Payment Gateway
+ * 
+ * @author Intermo Pyament Gateway Team
+ * @since v1.1.0
+ * 
+ */
+
+ class WC_Gateway_Intermo extends WC_Payment_Gateway_CC
+ {
+
+ }
